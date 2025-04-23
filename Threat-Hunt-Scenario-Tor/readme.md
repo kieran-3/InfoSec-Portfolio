@@ -52,7 +52,8 @@ DeviceProcessEvents
 | where ProcessCommandLine contains "tor-browser-windows"
 | project Timestamp, DeviceName, AccountName, ActionType, FolderPath, SHA256, ProcessCommandLine
 ```
-2
+![2](https://github.com/user-attachments/assets/e848bf7a-cf75-4147-b121-159126bd0bf0)
+
 
 ---
 
@@ -69,7 +70,8 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
 | order by Timestamp desc
 ```
-3
+![3](https://github.com/user-attachments/assets/ef5c0db4-e3d7-434c-84ce-2b2cbb155416)
+
 
 ---
 
@@ -87,6 +89,7 @@ DeviceNetworkEvents
 | project Timestamp, DeviceName, InitiatingProcessAccountName, ActionType, RemoteIP, RemotePort, RemoteUrl, InitiatingProcessFileName
 | order by Timestamp desc
 ```
-4
+![4](https://github.com/user-attachments/assets/f1e3d07f-f35c-48b4-be78-679ada5a8f36)
+
 
 ---
