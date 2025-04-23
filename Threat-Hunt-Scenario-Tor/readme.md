@@ -91,5 +91,13 @@ DeviceNetworkEvents
 ```
 ![4](https://github.com/user-attachments/assets/f1e3d07f-f35c-48b4-be78-679ada5a8f36)
 
-
 ---
+
+## Chronological Event Timeline 
+
+Timestamp (UTC) | Event Description
+2025-04-21T19:47:54 | User labuser on device officelabk began downloading TOR-related files; multiple files copied to desktop.
+2025-04-21T20:09:16 | labuser silently executed tor-browser-windows-x86_64-portable-14.5.exe from Downloads folder.
+2025-04-23T01:01:58 | labuser executed TOR browser (tor.exe and firefox.exe) on officelabk.
+2025-04-23T01:02:44 | TOR browser established network connection to IP 140.238.145.127 over TOR port 9001.
+2025-04-23T01:12:44 | Creation of tor-shopping-list.txt file on desktop — potentially used to store anonymous browsing info.
