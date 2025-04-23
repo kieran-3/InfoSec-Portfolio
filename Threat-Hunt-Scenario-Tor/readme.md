@@ -75,7 +75,7 @@ DeviceProcessEvents
 
 ---
 
-### 4. Searched the `DeviceNetworkEvents` Table for TOR Network Connections
+### 4. Searched the `DeviceNetworkEvents` Table for Network Connections to TOR Nodes
 
 Searched for any indication the TOR browser was used to establish a connection using any of the known TOR ports. At `2025-04-23T01:02:44.7013732Z`, an employee on the 'officelabk' device successfully established a connection to the remote IP address `140.238.145.127` on port `9001`. The connection was initiated by the process `tor.exe`.
 
@@ -95,9 +95,32 @@ DeviceNetworkEvents
 
 ## Chronological Event Timeline 
 
-Timestamp (UTC) | Event Description
-2025-04-21T19:47:54 | User labuser on device officelabk began downloading TOR-related files; multiple files copied to desktop.
-2025-04-21T20:09:16 | labuser silently executed tor-browser-windows-x86_64-portable-14.5.exe from Downloads folder.
-2025-04-23T01:01:58 | labuser executed TOR browser (tor.exe and firefox.exe) on officelabk.
-2025-04-23T01:02:44 | TOR browser established network connection to IP 140.238.145.127 over TOR port 9001.
-2025-04-23T01:12:44 | Creation of tor-shopping-list.txt file on desktop — potentially used to store anonymous browsing info.
+Timestamp (UTC) | Event
+
+2025-04-21T19:47:54 | User labuser downloaded TOR-related files; multiple TOR files copied to Desktop.
+
+2025-04-21T20:09:16 | Silent install of tor-browser-windows-x86_64-portable-14.5.exe initiated.
+
+2025-04-23T01:01:58 | Execution of TOR browser (tor.exe, firefox.exe) confirmed.
+
+2025-04-23T01:02:44 | TOR established outbound connection to IP 140.238.145.127 over port 9001.
+
+2025-04-23T01:12:44 | File tor-shopping-list.txt created on Desktop — potentially used for anonymous tracking.
+
+---
+
+## Summary
+
+Management suspected TOR usage within the network due to encrypted traffic patterns and connections to known TOR entry nodes. Investigation confirmed TOR activity by a user named labuser on the workstation officelabk.
+
+Key findings:
+
+- TOR browser was downloaded and installed.
+
+- It was executed and successfully connected to the TOR network.
+
+- A suspicious .txt file was created, potentially linked to TOR activity.
+
+Action Recommended: Notify management. Implement network and endpoint-level blocking of TOR activity. Consider disciplinary review and updates to security policy enforcement.
+
+
