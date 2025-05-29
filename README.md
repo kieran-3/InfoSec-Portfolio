@@ -10,6 +10,7 @@ I'm deeply passionate about cybersecurity and enjoy solving complex challenges t
 ## 🚨 Threat Hunting and Security Operations
 
 - **[Threat Hunting Scenario (Tor Browser Usage)]()**
+- **[Zero-Day Ransomware PwnCrypt Outbreak)]()**
 
 <hr/>
 
