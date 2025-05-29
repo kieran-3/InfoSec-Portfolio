@@ -9,8 +9,8 @@ I'm deeply passionate about cybersecurity and enjoy solving complex challenges t
 
 ## 🚨 Threat Hunting and Security Operations
 
-- **[Threat Hunting Scenario (Tor Browser Usage)]()**
-- **[Zero-Day Ransomware PwnCrypt Outbreak)]()**
+- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/kieran-3/InfoSec-Portfolio/tree/main/Threat-Hunt-Scenario-Tor)**
+- **[Zero-Day Ransomware PwnCrypt Outbreak](https://github.com/kieran-3/InfoSec-Portfolio/tree/main/Zero-Day%20Ransomware%20PwnCrypt%20Outbreak)**
 
 <hr/>
 
