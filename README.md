@@ -12,6 +12,7 @@ I'm deeply passionate about cybersecurity and enjoy solving complex challenges t
 - **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/kieran-3/InfoSec-Portfolio/tree/main/Threat-Hunt-Scenario-Tor)**
 - **[Zero-Day Ransomware PwnCrypt Outbreak](https://github.com/kieran-3/InfoSec-Portfolio/tree/main/Zero-Day%20Ransomware%20PwnCrypt%20Outbreak)**
 - **[Threat Hunt Report: Deep Access: The Adversary](https://github.com/kieran-3/InfoSec-Portfolio/tree/main/Threat%20Hunt%20Report%20Deep%20Access%3A%20The%20Adversary)**
+- **[Threat Hunt Report: The Great Admin Heist Investigation](https://github.com/kieran-3/InfoSec-Portfolio/tree/main/Threat%20Hunt%20Report%3A%20The%20Great%20Admin%20Heist%20Investigation)**
 
 <hr/>
 
